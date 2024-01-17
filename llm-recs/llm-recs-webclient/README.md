@@ -1,5 +1,10 @@
 # LlmRecsWebclient
 
+## Configuration
+You'll need API key(s) with OAuth scope access for authentication, Google Sheets, and Google Drive. These keys
+should be placed into a file named `./gcloud_env` based off the template in `/src/environments/gcloud_env.template.ts`
+For more information on setting up API keys with appropriate scopes, see https://developers.google.com/workspace/guides/create-credentials#api-key
+
 ## Development server
 
 Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
